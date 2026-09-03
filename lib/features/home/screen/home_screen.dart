@@ -15,20 +15,20 @@ class _HomeScreenState extends State<HomeScreen> {
       Completer<GoogleMapController>();
 
   static const CameraPosition _kGooglePlex = CameraPosition(
-    target: LatLng(37.42796133580664, -122.085749655962),
+    target: LatLng(11.556450, 104.928110),
     zoom: 14.4746,
   );
 
   static const CameraPosition _kLake = CameraPosition(
     bearing: 192.8334901395799,
-    target: LatLng(37.43296265331129, -122.08832357078792),
+    target: LatLng(11.565560, 104.932406),
     tilt: 59.440717697143555,
-    zoom: 15.151926040649414,
+    zoom: 19.151926040649414,
   );
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( 
       body: Stack(
         children: [
           GoogleMap(
